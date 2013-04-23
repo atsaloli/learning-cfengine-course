@@ -5,37 +5,38 @@
 
               COURSE DESCRIPTION
 
-Purpose: to help you start using CFEngine at your own pace
-         and in an economical manner.
 
 
-  The course is based on Diego Zamboni's "Learning CFEngine 3" 
-book.  
+  This free self-study course is based on Diego Zamboni's 
+"Learning CFEngine 3" book.  Its purpose is to help you
+start using CFEngine at your own pace and in an economical 
+manner, and to balance the significance of the book with
+hands-on practical exercises.
 
-  The course consists of a checksheet.
 
-   1. The checksheet is made up of sections.  Each section has 
-      theory and practical components.  The checksheet is arranged
-      from basic to more advanced concepts and should be studied
-      and completed in sequence.
+  The course consists solely of the book and a checksheet.
 
-   2. Upon completing the checksheet, the student completes the course.
+  The checksheet is made up of sections.  Each section has 
+theory and practical components.  The checksheet is arranged
+from basic to more advanced concepts and should be studied
+and completed in sequence.
+
+ Upon completing the checksheet, the student completes the course.
       
-There is no exam or certification. The course is self-administered -
-just download and follow the checksheet.  If you'd like on-site training
-for your team, or to attend a public training, get in touch at 
-hello@verticalsysadmin.com
+  There is no exam or certification. The course is self-administered.
+If you'd like on-site training for your team, or you'd like to 
+attend a public training, please say hello@verticalsysadmin.com
 
-COURSE LENGTH:  3 days full time.  This is a self-paced course so the
-time may vary.
+COURSE LENGTH:  3 days full time.  This is a self-paced course 
+so the time may vary.
 
 HOW TO USE THIS CHECKSHEET: Mark off each item as you complete it.
-Exercises and practicals are to be done honestly, in full, for maximum
-benefit.   
+Exercises and practicals are to be done in full, for full benefit
+of the student.
 
 MATERIALS:  "Learning CFEngine 3" book.  
 
-COST: Free of charge.  
+
 
                               CHECKSHEET
 
