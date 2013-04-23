@@ -1,40 +1,37 @@
-         "Learning CFEngine 3" extension course
-              www.verticalsysadmin.com
+         "Learning CFEngine 3" self-study course
+                www.verticalsysadmin.com
   Providing effective training on workable technologies.
 
 
               COURSE DESCRIPTION
 
-Purpose: to help you start using CFEngine quickly.  To give
-         you a jumpstart on learning CFEngine 3. 
+Purpose: to help you start using CFEngine at your own pace
+         and in an economical manner.
 
 
   The course is based on Diego Zamboni's "Learning CFEngine 3" 
-book.  It's be delivered online by Vertical Sysadmin, a training
-partner of CFEngine.
+book.  
 
-  The course consists of a checksheet, weekly group Q&A sessions,
-and a certification examination, organized as follows:
+  The course consists of a checksheet.
 
    1. The checksheet is made up of sections.  Each section has 
       theory and practical components.  The checksheet is arranged
       from basic to more advanced concepts and should be studied
       and completed in sequence.
 
-   2. Weekly group Q&A sessions are held online to answer students'
-      questions and keep them moving forward.
-
-   3. Upon completing the checksheet, the student completes the course.
-      Vertical Sysadmin then examines and certifies the student's 
-      achievement.  The exam has theory and practical components.
-
-COURSE LENGTH:  3 days full time.  This is a self-paced course so you
-could finish it in less or more time.  It may take 4-6 weeks part-time,
-it all depends how much you put into it.
+   2. Upon completing the checksheet, the student completes the course.
+      
+COURSE LENGTH:  3 days full time.  This is a self-paced course so the
+time may vary.
 
 HOW TO USE THIS CHECKSHEET: Mark off each item as you complete it.
-Exercises and practicals are to be done honestly, in full.
+Exercises and practicals are to be done honestly, in full, for maximum
+benefit.   The course is self-administered - just download and follow
+the checksheet. 
 
+MATERIALS:  "Learning CFEngine 3" book.  
+
+COST: Free of charge.  
 
                               CHECKSHEET
 
@@ -48,9 +45,11 @@ Theory
 
 Practical
 
-   1. Install CFEngine in a safe learning environment (such as a VM).
+   1. Install CFEngine in a safe learning environment, such as a VM.
+      (See http://www.verticalsysadmin.com/VMs.txt)
 
-   2. Using CFEngine, put "This machine is configured by CFEngine" in the "message of the day" file.
+   2. Using CFEngine, put "This machine is configured by CFEngine" in 
+      the "message of the day" file (/etc/motd).
 
 
 Section 2 - CFEngine Basics - Part 1
@@ -138,26 +137,31 @@ Theory
 
 Practical
 
-    1. Join the help-cfengine mailing list (https://groups.google.com/forum/#!forum/help-cfengine)
+    1. Join the help-cfengine mailing list 
+       (https://groups.google.com/forum/#!forum/help-cfengine)
 
     2. Find the Special Topic Guide on Editing File Content.
 
-    3. Get a reference copy of CFEngine Reference Manual (either hard or soft copy) in a conveniently accessible location
+    3. Get a reference copy of CFEngine Reference Manual (either hard 
+       or soft copy) in a conveniently accessible location.
 
 
 Section 5 - Using CFEngine for Initial System Configuration
 
 Theory
 
-    1. Read the section "Initial System Configuration" in chapter 4, "Using CFEngine".
+    1. Read the section "Initial System Configuration" in chapter 4, 
+       "Using CFEngine".
 
 Practical
 
-    1. Use CFEngine to set kernel parameter SHMMAX in /etc/sysctl.conf to 2147483648
+    1. Use CFEngine to set kernel parameter SHMMAX in /etc/sysctl.conf 
+       to 2147483648
 
     2. Use CFEngine to set "PermitRootLogin no" in /etc/sshd_config
 
-    3. Use CFEngine to create an /etc/motd file that always says "Unauthorized Use Forbidden", but also says  "Go home, it's the weekend" on the weekend.
+    3. Use CFEngine to create an /etc/motd file that always says "Unauthorized 
+       Use Forbidden", but also says  "Go home, it's the weekend" on the weekend.
 
 
 Section 6 - Using CFEngine for User Management
@@ -181,7 +185,8 @@ Practical
 
     1. Use CFEngine to install packaged software: install the "git" client package.
 
-    2. Use CFEngine to install unpackaged software: download, compile and install the latest tmux build (http://downloads.sourceforge.net/tmux/tmux-1.8.tar.gz)
+    2. Use CFEngine to install unpackaged software: download, compile and install 
+       the latest tmux build (http://downloads.sourceforge.net/tmux/tmux-1.8.tar.gz)
 
 
 
@@ -195,7 +200,8 @@ Practical
 
     1. Use CFEngine to kill any process whose command name contains the string "irc".
 
-    2. Use CFEngine to build a file integrity database for files in /etc, then modify /etc/motd and observe CFEngine report the file integrity check failure.
+    2. Use CFEngine to build a file integrity database for files in /etc, then modify 
+       /etc/motd and observe CFEngine report the file integrity check failure.
 
 
 Section 9 - CFEngine Tips, Tricks and Patterns: Hierarchical Copying
@@ -213,22 +219,28 @@ Section 10 - CFEngine Tips, Tricks and Patterns: Passing Name-Value Pairs to Bun
 
 Theory
 
-    1. Read section "Passing Name-Value Pairs to Bundles" in chapter 5, "CFEngine Tips, Tricks and Patterns".
+    1. Read section "Passing Name-Value Pairs to Bundles" in chapter 5, "CFEngine Tips, 
+       Tricks and Patterns".
 
 Practical
 
-    1. Use a "methods" promise to call a bundle, passing it a name-value pair.  Have the inner bundle report the name-value pair.
+    1. Use a "methods" promise to call a bundle, passing it a name-value pair.  Have the 
+       inner bundle report the name-value pair.
 
 
 Section 11 - CFEngine Tips, Tricks and Patterns: Setting Default Values for Bundle Parameters
 
 Theory
 
-    1. Read section "Setting Default Values for Bundle Parameters" in chapter 5, "CFEngine Tips, Tricks and Patterns".
+    1. Read section "Setting Default Values for Bundle Parameters" in chapter 5, "CFEngine 
+       Tips, Tricks and Patterns".
 
 Practical
 
-    1. Set up a config bundle containing an array with configuration parameters to pass configuration parameters from an outer bundle to an inner bundle.  Use the outer bundle to reset some of the parameters before calling the inner bundle.  Observe the inner bundle using a mix of the provided and the default parameters.
+    1. Set up a config bundle containing an array with configuration parameters to pass 
+       configuration parameters from an outer bundle to an inner bundle.  Use the outer 
+       bundle to reset some of the parameters before calling the inner bundle.  Observe 
+       the inner bundle using a mix of the provided and the default parameters.
 
 
 
@@ -236,11 +248,15 @@ Section 12 - CFEngine Tips, Tricks and Patterns: Using Classes as Configuration 
 
 Theory
 
-    1. Read section "Using Classes as Configuration Mechanisms" in chapter 5, "CFEngine Tips, Tricks and Patterns".
+    1. Read section "Using Classes as Configuration Mechanisms" in chapter 5, 
+       "CFEngine Tips, Tricks and Patterns".
 
 Practical
 
-    1. Modify your policy for editing /etc/motd from Section 5 to edit /tmp/motd if the class "testrun" is set.  Observe behavior of cf-agent when run with and without -Dtestrun.  Use separate bundles for configuring the file path and for editing the file.
+    1. Modify your policy for editing /etc/motd from Section 5 to edit /tmp/motd if the 
+       class "testrun" is set.  Observe behavior of cf-agent when run with and without 
+       -Dtestrun.  Use separate bundles for configuring the file path and for editing 
+       the file.
 
 
 
@@ -248,18 +264,22 @@ Section 13 - CFEngine Tips, Tricks and Patterns: Generic Tasks Using Lists and A
 
 Theory
 
-    1. Read section "Using Classes as Configuration Mechanisms" in chapter 5, "CFEngine Tips, Tricks and Patterns".
+    1. Read section "Using Classes as Configuration Mechanisms" in chapter 5, 
+       "CFEngine Tips, Tricks and Patterns".
 
 Practical
 
-    1. Take your tmux example from section 7, and use the same pattern (download tar ball; configure, make and install the program) to set up a list of programs to download and install (e.g. tmux and screen (ftp://ftp.gnu.org/gnu/screen/screen-4.0.3.tar.gz) )
+    1. Take your tmux example from section 7, and use the same pattern (download tar ball; 
+       configure, make and install the program) to set up a list of programs to download 
+       and install (e.g. tmux and screen (ftp://ftp.gnu.org/gnu/screen/screen-4.0.3.tar.gz) )
 
 
 Section 14 - CFEngine Tips, Tricks and Patterns: Defining Classes for Groups of Hosts
 
 Theory
 
-    1. Read section "Defining Classes for Groups of Hosts" in chapter 5, "CFEngine Tips, Tricks and Patterns".
+    1. Read section "Defining Classes for Groups of Hosts" in chapter 5, 
+       "CFEngine Tips, Tricks and Patterns".
 
 Practical
 
@@ -271,9 +291,11 @@ Section 15 - CFEngine Tips, Tricks and Patterns: Controlling Promise Execution O
 
 Theory
 
-    1. Read section "Controlling Promise Execution Order" in chapter 5, "CFEngine Tips, Tricks and Patterns".
+    1. Read section "Controlling Promise Execution Order" in chapter 5, 
+       "CFEngine Tips, Tricks and Patterns".
 
-    2. Re-read the last paragraph in section "Controlling Promise Execution Order" in chapter 5, "CFEngine Tips, Tricks and Patterns".
+    2. Re-read the last paragraph in section "Controlling Promise Execution Order" in 
+       chapter 5, "CFEngine Tips, Tricks and Patterns".
 
     3. Study agent normal ordering in https://cfengine.com/manuals/cf3-Reference#Agent-normal-ordering
 
@@ -281,7 +303,9 @@ Practical
 
     1. ESSAY  Why are reports last in CFEngine Normal Ordering?
 
-    2. EXERCISE Normally reports are printed after commands are run. Write a policy that will result in a report BEFORE a command (such as "/bin/echo hello world") is run.
+    2. EXERCISE Normally reports are printed after commands are run. Write a policy 
+       that will result in a report BEFORE a command (such as "/bin/echo hello world") 
+       is run.
 
 
 
@@ -297,9 +321,7 @@ Section 17 - FINAL PRACTICAL
 
    1. ESSAY  Describe how you will implement CFEngine at your site.
 
-   2. Write a policy to host a "hello world" website with content.  This should include making sure a Web server is installed and running, and that the Web document (Hello World HTML page) is present.   Kill the web server process manually and make sure CFEngine heals the system by respawning the httpd.
-
-
-EXAM
-
-Contact Vertical Sysadmin to arrange your examination and certification of achievement.
+   2. Write a policy to host a "hello world" website with content.  This should include 
+      making sure a Web server is installed and running, and that the Web document 
+      (Hello World HTML page) is present.   Kill the web server process manually and 
+      make sure CFEngine heals the system by respawning the httpd.
