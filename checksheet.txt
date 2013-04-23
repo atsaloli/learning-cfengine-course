@@ -21,13 +21,17 @@ book.
 
    2. Upon completing the checksheet, the student completes the course.
       
+There is no exam or certification. The course is self-administered -
+just download and follow the checksheet.  If you'd like on-site training
+for your team, or to attend a public training, get in touch at 
+hello@verticalsysadmin.com
+
 COURSE LENGTH:  3 days full time.  This is a self-paced course so the
 time may vary.
 
 HOW TO USE THIS CHECKSHEET: Mark off each item as you complete it.
 Exercises and practicals are to be done honestly, in full, for maximum
-benefit.   The course is self-administered - just download and follow
-the checksheet. 
+benefit.   
 
 MATERIALS:  "Learning CFEngine 3" book.  
 
