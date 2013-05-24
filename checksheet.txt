@@ -6,35 +6,35 @@
               COURSE DESCRIPTION
 
 
-
   This free self-study course is based on Diego Zamboni's 
-"Learning CFEngine 3" book.  Its purpose is to help you
-start using CFEngine at your own pace and in an economical 
-manner, and to balance the significance of the book with
-hands-on practical exercises.
+excellent "Learning CFEngine 3" book. Start using CFEngine 
+at your own pace in an economical manner. The course 
+balances significance with hands-on exercises.
 
-
-  The course consists solely of the book and a checksheet.
+  The course consists of the book and a checksheet.
 
   The checksheet is made up of sections.  Each section has 
 theory and practical components.  The checksheet is arranged
-from basic to more advanced concepts and should be studied
-and completed in sequence.
+from basic to more advanced concepts and should be completed
+in sequence.
 
- Upon completing the checksheet, the student completes the course.
+  Upon completing the checksheet, the student completes the 
+course.
       
-  There is no exam or certification. The course is self-administered.
-If you'd like on-site training for your team, or you'd like to 
-attend a public training, please say hello@verticalsysadmin.com
+  There is no exam or certification. The course is self-
+administered.  If you'd like on-site training for your team, 
+or you'd like to attend a public training, email us at
+hello@verticalsysadmin.com
 
-COURSE LENGTH:  3 days full time.  This is a self-paced course 
-so the time may vary.
+PRE-REQUISITES:  Knowledge of basic system administration.
+
+COURSE LENGTH:  3 days full time or 2 weeks part-time.
 
 HOW TO USE THIS CHECKSHEET: Mark off each item as you complete it.
-Exercises and practicals are to be done in full, for full benefit
-of the student.
+Exercises and practicals are to be done in full for maximum 
+benefit to the student.
 
-MATERIALS:  "Learning CFEngine 3" book.  
+MATERIALS:  "Learning CFEngine 3" book and the below checksheet.
 
 
 
